@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background: linear-gradient(#485457, #f9f9f9);
+    background: linear-gradient(#131616, #a4a4a4);
     height: 100vh;
     font-family: sans-serif;
 }
@@ -49,6 +49,8 @@ header ul li a:hover, .active{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
 }
 .main::after{
     content: '';
@@ -56,21 +58,23 @@ header ul li a:hover, .active{
     bottom: 0;
     height: 100px;
     width: 100%;
-    background: linear-gradient(to top, #f9f9f9, transparent);
+    background: linear-gradient(to top, #b3b3b3, transparent);
 }
 .main img{
     position: absolute;
     width: 100%;
     height: 100vh;
     object-fit: cover;
+    
+    
 }
 #moon{
     mix-blend-mode: screen;
-    transform: translateY(80px);
+    transform: translateY(100px);
 }
-.photo{
+.mainText{
     color: #fff;
-    font-size: 25px;
+    font-size: 15px;
     text-transform: uppercase;
     transform: translateY(-140px);
 
